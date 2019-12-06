@@ -1,12 +1,20 @@
 
 .container{
-    background-color: lightgray;
-    margin: 20px 100px;
+    background-color: white;
+    margin: 40px 100px;
 }
-
+.containerHeader{
+    border-style: none none solid none;
+    border-color: lightgrey;
+    margin: 0px 10px;
+    color: rgb(39, 212, 198);
+}
 nav{
     display: flex;
     flex-direction: row;
+    border-style: none none solid none;
+    border-color: darkgrey;
+    background-color: white;
 }
 h1{
     flex-grow: 1;
@@ -18,17 +26,21 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    align-content: space-around;
-    /* display: block; */
-    padding: 1em;
+    /* background-color: white; */
+    /* align-content: space-around; */
 }
+.item {
+    color: gray;
+    width: 50px;
+    /* height: 50px; */
+    margin: 0 5px;
+  }
 
-
-
-
-
-
-
+.background{
+    z-index: -1;
+    background-image: url("../images/greek-vase.png");
+    background-color: #cccccc;
+}
 
 a{
     text-decoration: none;
@@ -37,6 +49,7 @@ a{
 p{
     font-size: 18px;
     line-height: 28px;
+    margin: 10px;
 }
 
 #image{
@@ -48,7 +61,44 @@ p{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color:rgb(39, 212, 198);
+    background-color:gray;
     color: white;
     text-align: center;
+    border-style: solid none none none;
+    border-color: rgb(39, 212, 198);
+
   }
+
+  /***************** Contact Page **************/
+  body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}

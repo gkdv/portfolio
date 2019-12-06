@@ -115,3 +115,14 @@ input[type=submit]:hover {
 #containerHeaderText{
     margin: 20px;
 }
+
+/*************** Portfolio page **************/
+#contentPortfolio{
+    position: relative;
+}
+.textBlock{
+    position: absolute;
+    background-color: rgb(39, 212, 198);
+    color: white;
+}
+

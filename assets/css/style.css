@@ -85,7 +85,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #4CAF50;
+  background-color: rgb(39, 212, 198);
   color: white;
   padding: 12px 20px;
   border: none;
@@ -94,11 +94,24 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #rgb(39, 212, 198);
 }
 
-.container {
+.containerContact {
+  border-style: none none solid none;
+  border-color: lightgrey;
+  background-color: white;
+  margin: 40px 100px;
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+}
+.containerHeader{
+    border-style: none none solid none;
+    border-color: lightgrey;
+    margin: 20px;
+    color: rgb(39, 212, 198);
+}
+#containerHeaderText{
+    margin: 20px;
 }
